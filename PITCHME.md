@@ -45,7 +45,6 @@ Note:
 
 <!---  Add bullets using https://fontawesome.com/cheatsheet certificate
 -->
-<br>
 <ul style="list-style-type:none">
  <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;What is the UEFI Driver Model</span> </li><br>
  <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Setup the UEFI Driver Wizard</span></li><br>
@@ -131,7 +130,7 @@ Note:
   
 
 
----?image=/assets/images/slides/Slide12.JPG
+---?image=/assets/images/slides/Slide12_1.JPG
 @title[UEFI Drivers - Location II]
 <p align="right"><span class="gold" >UEFI Drivers - Location</span></p>
 
@@ -435,7 +434,7 @@ Note:
 ---?image=/assets/images/slides/Slide45.JPG
 <!-- .slide: data-transition="none" -->
 @title[Start - PCI Controller Device Handle]
-<p align="right"><span class="gold" >Start - PCI Controller Device Handle</span></p>
+<p align="right"><span class="gold" >Stop - PCI Controller Device Handle</span></p>
 
 Note:
 
@@ -539,7 +538,7 @@ Note:
 - Driver’s Private Data Structure declaration – Data structures for managing a SCSI disk device
 
 
-+++?code=sample/ScsiDiskDxe/ScsiDiskDxe.h&lang=c++&title=Example:  ScsiDiskDxe.h
++++?code=sample/ScsiDiskDxe/ScsiDisk.h&lang=c++&title=Example:  ScsiDisk.h
 
 
 
@@ -558,7 +557,7 @@ Note:
 - Driver’s Private Data Structure declaration – Data structures for managing a SCSI disk device
 
 
-+++?code=sample/ScsiDiskDxe/ScsiDiskDxe.c&lang=c++&title=Example:  ScsiDiskDxe.c
++++?code=sample/ScsiDiskDxe/ScsiDisk.c&lang=c++&title=Example:  ScsiDisk.c
 
 Note:
 
@@ -566,21 +565,22 @@ Note:
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[UEFI Driver Wizard ]
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Wizard</span>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a Template UEFI Driver with the UEFI Driver Wizard</span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a Template UEFI Driver with the </span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Wizard</span>
 
 ---?image=/assets/images/slides/Slide54.JPG
 @title[UEFI Driver Wizard  Overview]
 <br>
-<p align="center"><span class="gold" >UEFI Driver Wizard  Overview</span></p>
+<p align="left"><span class="gold" >UEFI Driver Wizard  Overview</span></p>
 <br>
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><font color="cyan">&check;&nbsp;&nbsp;Open source tool  </font> </span>  </li>
-  <li><span style="font-size:0.8em" ><font color="gray">&check;&nbsp;&nbsp;Based on Driver Writer’s Guide for UEFI 2.3.1 content</font> </span>  </li>
+  <li><span style="font-size:0.8em" ><font color="white">&check;&nbsp;&nbsp;Based on Driver Writer’s Guide for UEFI 2.3.1 content</font> </span>  </li>
   <li><span style="font-size:0.8em" ><font color="cyan">&check;&nbsp;&nbsp;Intel engineers contributed   </font> </span>  </li>
-  <li><span style="font-size:0.8em" ><font color="gray">&check;&nbsp;&nbsp;Located on <a href="http://www.tianocore.org">www.TianoCore.org</a>  </font> </span>  </li>
+  <li><span style="font-size:0.8em" ><font color="white">&check;&nbsp;&nbsp;Located on <a href="http://www.tianocore.org">www.TianoCore.org</a>  </font> </span>  </li>
 </ul>
 </div>
 <div class="right1">
@@ -594,12 +594,12 @@ Note:
 <p align="right"><span class="gold" >Installing Python for UEFI Driver Wizard</span></p>
 <span style="font-size:01.0em" ><font color="#92D050">Requirements and Options </font></span><br>
 <br>
-<ul style="list-style-type:none">
-  <li>@fa[certificate gp-bullet-white]<span style="font-size:0.8em" >&nbsp;&nbsp;Work space  must contain BaseTools, MdePkg & MdeModulePkg Packages from <a href="https://github.com/tianocore/tianocore.github.io/wiki/Driver-Developer">UDK2018</a> for Driver development on Tianocore.org </span> </li>
-  <li>@fa[certificate gp-bullet-white]<span style="font-size:0.8em" >&nbsp;&nbsp;Uses previous lab’s setup `$HOME/src/edk2`   </span> </li>
-  <li>@fa[certificate gp-bullet-white]<span style="font-size:0.8em" >&nbsp;&nbsp;Python* scripts from  <a href="https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard">Github Link </a> then use instructions from README for Python and wxPython versions to install then run</span> </li>
+<ul style="list-style-type:disc">
+  <li><span style="font-size:0.8em" >Work space  must contain BaseTools, MdePkg & MdeModulePkg Packages from <a href="https://github.com/tianocore/tianocore.github.io/wiki/Driver-Developer">UDK2018</a> for Driver development on Tianocore.org </span> </li>
+  <li><span style="font-size:0.8em" >Uses previous lab’s setup `$HOME/src/edk2`   </span> </li>
+  <li><span style="font-size:0.8em" >Python* scripts from  <a href="https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard">Github Link </a> then use instructions from README for Python and wxPython versions to install then run</span> </li>
   <ul style="list-style-type:none">
-    <li><span style="font-size:0.6em" >&nbsp;&nbsp;`bash$ python launch.py` </span></li>
+    <li><span style="font-size:0.6em" >&nbsp;&nbsp;<span style="background-color: #000000">`bash$ python launch.py`</span> </span></li>
   </ul>
 </ul>
 
@@ -615,7 +615,7 @@ Same as slide
 <span style="font-size:0.9em" >Using UEFI Driver Wizard</span>
 <ul>
    <li><span style="font-size:0.7em" >UEFI Device Driver </span></li>
-   <li><span style="font-size:0.7em" >UEFI Version 2.7 (0x00020046) `#define EFI_2_70_SYSTEM_TABLE_REVISION ((2<<16) | (70DEC))` </span></li>
+   <li><span style="font-size:0.7em" >UEFI Version 2.7 (0x00020046) </span><br><span style="font-size:0.6em" >`#define EFI_2_70_SYSTEM_TABLE_REVISION ((2<<16) | (70DEC))` </span></li>
    <li><span style="font-size:0.7em" >Unloadable driver </span></li>
    <li><span style="font-size:0.7em" >Support IA32 & x64 CPUs </span></li>
    <li><span style="font-size:0.7em" >Returns component name information </span></li>
@@ -694,12 +694,12 @@ Note:
    <li><span style="font-size:0.8em" >From the `~FW/DriverWizard` folder, copy and paste folder “`~FW/DriverWizard/UefiDriverWizard`” to `~$Home`  </span></li>
    <li><span style="font-size:0.8em" >Check  if version 2.7.x is the default of Python from Terminal Prompt </span></li>
    <ul style="list-style-type:none">
-       <li><span style="font-size:0.6em" ><span style="background-color: #000000">`bash$ python –V&nbsp;&nbsp;`</span></span></li>
-       <li><span style="font-size:0.6em" ><span style="background-color: #300a24">`Python 2.7.12&nbsp;&nbsp;&nbsp;&nbsp;`</span></span></li>
+       <li><span style="font-size:0.6em" ><span style="background-color: #000000">`bash$ python –V`&nbsp;&nbsp;</span></span></li>
+       <li><span style="font-size:0.6em" ><span style="background-color: #300a24">`Python 2.7.12`&nbsp;&nbsp;&nbsp;&nbsp;</span></span></li>
    </ul>
    <li><span style="font-size:0.8em" >Install the wxPython  (Version 3.0 ) </span></li>
    <ul style="list-style-type:none">
-       <li><span style="font-size:0.6em" ><span style="background-color: #000000">`bash$ sudo apt-get install python-wxgtk3.0 &nbsp;&nbsp;`</span></span></li>
+       <li><span style="font-size:0.6em" ><span style="background-color: #000000">`bash$ sudo apt-get install python-wxgtk3.0` &nbsp;&nbsp;</span></span></li>
    </ul>
 </ol>
 
@@ -737,20 +737,22 @@ Note:
 
 ---?image=/assets/images/slides/Slide71.JPG
 @title[Lab 1: New UEFI Driver Menu]
+<p align="right"><span class="gold" >Lab 1: New UEFI Driver Menu</span></p>
 <br>
-<p align="left"><span class="gold" >Lab 1: New UEFI Driver Menu</span></p>
 <div class="left1">
-<ul style="list-style-type:none">
-  <li><span style="font-size:0.8em" >“UEFI Driver Path” – Type: <b>“MyWizardDriver”</b></span>  </li>
-  <li><span style="font-size:0.7em" >&nbsp;&nbsp;<i>Note:</i> “UEFI Driver Name” is filled in </span>  </li>
-  <li><span style="font-size:0.8em" ><b>Ensure</b> all the forms, radio buttons, and boxes are filled in and <b>selected exactly</b> like the image to the right.</span>  </li>
-  <li><span style="font-size:0.8em" ><i>Note:</i>A new, specific driver GUID will populate, so it will be different than this image</span>  </li>
+<ul style="list-style-type:disc">
+  <li><span style="font-size:0.7em" >“UEFI Driver Path” – Type: <b>“MyWizardDriver”</b></span>  </li>
+    <ul style="list-style-type:none">
+     <li><span style="font-size:0.5em" >&nbsp;&nbsp;<i>Note:</i> “UEFI Driver Name” is filled in </span>  </li>
+  </ul>
+ <li><span style="font-size:0.7em" ><b>Ensure</b> all the forms, radio buttons, and boxes are filled in and <b>selected exactly</b> like the image to the right.</span>  </li>
+  <li><span style="font-size:0.7em" ><i>Note:</i>A new, specific driver GUID will populate, so it will be different than this image</span>  </li>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp; Click  </li>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
 </ul>
 </div>
 <div class="right1">
-<ul>
+<ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >&nbsp;  </li>
 </ul>
 </div>
@@ -779,11 +781,14 @@ Note:
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp; Click  </li>
-</ul>
+  <br>
+  <br>
+  <br>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+ </ul>
 </div>
 <div class="right1">
-<ul>
+<ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >&nbsp;  </li>
 </ul>
 </div>
@@ -806,16 +811,19 @@ Note:
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp;"PCI Driver that consumes the PCI I/O Protocol”  </span>  </li>
+  <li><span style="font-size:0.8em" >"PCI Driver that consumes the PCI I/O Protocol”  </span>  </li>
   <br>
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp; Click  </li>
+  <br>
+  <br>
+  <br>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
 </ul>
 </div>
 <div class="right1">
-<ul>
+<ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >&nbsp;  </li>
 </ul>
 </div>
@@ -830,17 +838,20 @@ Same as slide
 
 ---?image=/assets/images/slides/Slide77.JPG
 @title[Lab 1: UEFI Driver Produced Protocols]
+<p align="right"><span class="gold" >Lab 1: UEFI Driver Produced Protocols</span></p>
 <br>
-<p align="left"><span class="gold" >Lab 1: UEFI Driver Produced Protocols</span></p>
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp;"Text Console producing the Simple Text Output Protocol”  </span>  </li>
+  <li><span style="font-size:0.8em" >"Text Console producing the Simple Text Output Protocol”  </span>  </li>
   <br>
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp; Click  </li>
+  <br>
+  <br>
+  <br>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
 </ul>
 </div>
 <div class="right1">
@@ -869,7 +880,6 @@ Same as slide
 @title[Summary]
 <BR>
 ### <p align="center"><span class="gold"   >Summary </span></p><br>
-<br>
 <ul style="list-style-type:none">
  <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;What is the UEFI Driver Model</span> </li><br>
  <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Setup the UEFI Driver Wizard</span></li><br>
