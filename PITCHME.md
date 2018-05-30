@@ -786,7 +786,7 @@ Note:
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
  </ul>
 </div>
 <div class="right1">
@@ -822,7 +822,7 @@ Note:
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
 </ul>
 </div>
 <div class="right1">
