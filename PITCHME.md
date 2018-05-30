@@ -567,7 +567,7 @@ Note:
 @title[UEFI Driver Wizard ]
 <br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Wizard</span>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a Template UEFI Driver with the </span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a Template UEFI Driver with the </span><br>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Wizard</span>
 
 ---?image=/assets/images/slides/Slide54.JPG
@@ -597,9 +597,9 @@ Note:
 <ul style="list-style-type:disc">
   <li><span style="font-size:0.8em" >Work space  must contain BaseTools, MdePkg & MdeModulePkg Packages from <a href="https://github.com/tianocore/tianocore.github.io/wiki/Driver-Developer">UDK2018</a> for Driver development on Tianocore.org </span> </li>
   <li><span style="font-size:0.8em" >Uses previous lab’s setup `$HOME/src/edk2`   </span> </li>
-  <li><span style="font-size:0.8em" >Python* scripts from  <a href="https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard">Github Link </a> then use instructions from README for Python and wxPython versions to install then run</span> </li>
+  <li><span style="font-size:0.8em" >Python scripts from  <a href="https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard">Github Link </a> then use instructions from README for Python and wxPython versions to install then run</span> </li>
   <ul style="list-style-type:none">
-    <li><span style="font-size:0.6em" >&nbsp;&nbsp;<span style="background-color: #000000">`bash$ python launch.py`</span> </span></li>
+    <li><span style="font-size:0.6em" >&nbsp;&nbsp;<span style="background-color: ##300a24">`bash$ python launch.py`</span> </span></li>
   </ul>
 </ul>
 
@@ -694,12 +694,12 @@ Note:
    <li><span style="font-size:0.8em" >From the `~FW/DriverWizard` folder, copy and paste folder “`~FW/DriverWizard/UefiDriverWizard`” to `~$Home`  </span></li>
    <li><span style="font-size:0.8em" >Check  if version 2.7.x is the default of Python from Terminal Prompt </span></li>
    <ul style="list-style-type:none">
-       <li><span style="font-size:0.6em" ><span style="background-color: #000000">`bash$ python –V`&nbsp;&nbsp;</span></span></li>
+       <li><span style="font-size:0.6em" ><span style="background-color: #101010">`bash$ python –V`&nbsp;&nbsp;</span></span></li>
        <li><span style="font-size:0.6em" ><span style="background-color: #300a24">`Python 2.7.12`&nbsp;&nbsp;&nbsp;&nbsp;</span></span></li>
    </ul>
    <li><span style="font-size:0.8em" >Install the wxPython  (Version 3.0 ) </span></li>
    <ul style="list-style-type:none">
-       <li><span style="font-size:0.6em" ><span style="background-color: #000000">`bash$ sudo apt-get install python-wxgtk3.0` &nbsp;&nbsp;</span></span></li>
+       <li><span style="font-size:0.6em" ><span style="background-color: #101010">`bash$ sudo apt-get install python-wxgtk3.0` &nbsp;&nbsp;</span></span></li>
    </ul>
 </ol>
 
@@ -728,8 +728,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide69.JPG
 @title[Lab 1: -Create a New UEFI Driver]
-<br>
-<p align="left"><span class="gold" >Lab 1: Create a <u>N</u>ew UEFI Driver</span></p>
+<p align="center"><span class="gold" >Lab 1: Create a <u>N</u>ew UEFI Driver</span></p>
 
 Note:
 - Control+N – to Open Menu 
@@ -737,8 +736,8 @@ Note:
 
 ---?image=/assets/images/slides/Slide71.JPG
 @title[Lab 1: New UEFI Driver Menu]
-<p align="right"><span class="gold" >Lab 1: New UEFI Driver Menu</span></p>
 <br>
+<p align="left"><span class="gold" >New UEFI Driver Menu</span></p>
 <div class="left1">
 <ul style="list-style-type:disc">
   <li><span style="font-size:0.7em" >“UEFI Driver Path” – Type: <b>“MyWizardDriver”</b></span>  </li>
@@ -748,7 +747,10 @@ Note:
  <li><span style="font-size:0.7em" ><b>Ensure</b> all the forms, radio buttons, and boxes are filled in and <b>selected exactly</b> like the image to the right.</span>  </li>
   <li><span style="font-size:0.7em" ><i>Note:</i>A new, specific driver GUID will populate, so it will be different than this image</span>  </li>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+  <br>
+  <ul style="list-style-type:none">
+       <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+  </ul>
 </ul>
 </div>
 <div class="right1">
@@ -784,7 +786,7 @@ Note:
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
  </ul>
 </div>
 <div class="right1">
@@ -812,6 +814,7 @@ Note:
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
   <li><span style="font-size:0.8em" >"PCI Driver that consumes the PCI I/O Protocol”  </span>  </li>
+  <br>
   <br>
   <br>
   <br>
@@ -855,7 +858,7 @@ Same as slide
 </ul>
 </div>
 <div class="right1">
-<ul>
+<ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >&nbsp;  </li>
 </ul>
 </div>
