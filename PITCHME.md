@@ -599,7 +599,7 @@ Note:
   <li><span style="font-size:0.8em" >Uses previous lab’s setup `$HOME/src/edk2`   </span> </li>
   <li><span style="font-size:0.8em" >Python scripts from  <a href="https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard">Github Link </a> then use instructions from README for Python and wxPython versions to install then run</span> </li>
   <ul style="list-style-type:none">
-    <li><span style="font-size:0.6em" >&nbsp;&nbsp;<span style="background-color: ##300a24">`bash$ python launch.py`</span> </span></li>
+    <li><span style="font-size:0.6em" >&nbsp;&nbsp;<span style="background-color: #101010">`bash$ python launch.py`</span> </span></li>
   </ul>
 </ul>
 
@@ -736,7 +736,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide71.JPG
 @title[Lab 1: New UEFI Driver Menu]
-<br>
+<p align="right"><span class="gold" >Lab 1:</span></p>
 <p align="left"><span class="gold" >New UEFI Driver Menu</span></p>
 <div class="left1">
 <ul style="list-style-type:disc">
@@ -749,7 +749,7 @@ Note:
   <br>
   <br>
   <ul style="list-style-type:none">
-       <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+       <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
   </ul>
 </ul>
 </div>
@@ -786,7 +786,7 @@ Note:
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
  </ul>
 </div>
 <div class="right1">
@@ -822,7 +822,7 @@ Note:
   <br>
   <br>
   <br>
-  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
+  <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
 </ul>
 </div>
 <div class="right1">
