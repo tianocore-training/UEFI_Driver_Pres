@@ -736,7 +736,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide71.JPG
 @title[Lab 1: New UEFI Driver Menu]
-<p align="center"><span class="gold" >Lab 1:</span></p>
+<p align="left"><span class="gold" >&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Lab 1:</span></p>
 <p align="left"><span class="gold" >New UEFI Driver Menu</span></p>
 <div class="left1">
 <ul style="list-style-type:disc">
