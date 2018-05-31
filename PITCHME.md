@@ -745,9 +745,9 @@ Note:
      <li><span style="font-size:0.5em" >&nbsp;&nbsp;<i>Note:</i> “UEFI Driver Name” is filled in </span>  </li>
   </ul>
  <li><span style="font-size:0.7em" ><b>Ensure</b> all the forms, radio buttons, and boxes are filled in and <b>selected exactly</b> like the image to the right.</span>  </li>
-  <li><span style="font-size:0.7em" ><i>Note:</i>A new, specific driver GUID will populate, so it will be different than this image</span>  </li>
-  <br>
-  <br>
+ <br>
+ <li><span style="font-size:0.65em" ><i>Note:</i>A new, specific driver GUID will populate, so it will be different than this image</span>  </li>
+   <br>
   <ul style="list-style-type:none">
        <li><span style="font-size:0.8em" >&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
   </ul>
@@ -781,9 +781,9 @@ Note:
   <li><span style="font-size:0.8em" ><b>Ensure</b> all the forms, radio buttons, and boxes are filled in and <b>selected exactly</b> like the image to the right.</span>  </li>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
+  <li><span style="font-size:0.6em" >&check;&nbsp;&nbsp;"Componnt Name 2 Prorocol”  </span>  </li>
+  <li><span style="font-size:0.6em" >&check;&nbsp;&nbsp;"Componnt Name Prorocol”   </span>  </li>
+  <li><span style="font-size:0.6em" >&check;&nbsp;&nbsp;"HII Packages for Forms . . .”  </span>  </li>
   <br>
   <br>
   <li><span style="font-size:0.8em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <b>Click</b>  </li>
@@ -813,7 +813,7 @@ Note:
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.8em" >&check;&nbsp;&nbsp;"PCI Driver that consumes the PCI I/O Protocol”  </span>  </li>
+  <li><span style="font-size:0.7em" >&check;&nbsp;&nbsp;"PCI Driver that consumes the PCI I/O Protocol”  </span>  </li>
   <br>
   <br>
   <br>
@@ -846,7 +846,7 @@ Same as slide
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.8em" >&check;&nbsp;&nbsp;"Byte stream device (i.e.UART) productin Serial I/O Protocol”  </span>  </li>
+  <li><span style="font-size:0.7em" >&check;&nbsp;&nbsp;"Byte stream device (i.e.UART) productin Serial I/O Protocol”  </span>  </li>
   <br>
   <br>
   <br>
