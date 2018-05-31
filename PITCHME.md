@@ -839,14 +839,14 @@ Same as slide
 
 
 
----?image=/assets/images/slides/Slide77.JPG
+---?image=/assets/images/slides/Slide77_1.JPG
 @title[Lab 1: UEFI Driver Produced Protocols]
 <p align="right"><span class="gold" >Lab 1: UEFI Driver Produced Protocols</span></p>
 <br>
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.8em" >"Text Console producing the Simple Text Output Protocol”  </span>  </li>
+  <li><span style="font-size:0.8em" >"Byte stream device (i.e.UART) productin Serial I/O Protocol”  </span>  </li>
   <br>
   <br>
   <br>
@@ -869,7 +869,7 @@ Same as slide
 
 
 
----?image=/assets/images/slides/Slide79.JPG
+---?image=/assets/images/slides/Slide79-1.JPG
 @title[Lab 1: UEFI Driver Created]
 <br>
 <p align="left"><span class="gold" >Lab 1: UEFI Driver Created</span></p>
