@@ -869,7 +869,7 @@ Same as slide
 
 
 
----?image=/assets/images/slides/Slide79-1.JPG
+---?image=/assets/images/slides/Slide79_1.JPG
 @title[Lab 1: UEFI Driver Created]
 <br>
 <p align="left"><span class="gold" >Lab 1: UEFI Driver Created</span></p>
