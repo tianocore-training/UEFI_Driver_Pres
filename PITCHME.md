@@ -813,7 +813,7 @@ Note:
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.8em" >"PCI Driver that consumes the PCI I/O Protocol”  </span>  </li>
+  <li><span style="font-size:0.8em" >&check;&nbsp;&nbsp;"PCI Driver that consumes the PCI I/O Protocol”  </span>  </li>
   <br>
   <br>
   <br>
@@ -846,7 +846,7 @@ Same as slide
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.8em" >"Byte stream device (i.e.UART) productin Serial I/O Protocol”  </span>  </li>
+  <li><span style="font-size:0.8em" >&check;&nbsp;&nbsp;"Byte stream device (i.e.UART) productin Serial I/O Protocol”  </span>  </li>
   <br>
   <br>
   <br>
