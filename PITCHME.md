@@ -559,9 +559,10 @@ Note:
 
 +++?code=sample/ScsiDiskDxe/ScsiDisk.c&lang=c++&title=Example:  ScsiDisk.c
 
+
 Note:
 
-
+- See the Start makes a call : Status = gBS->InstallMultipleProtocolInterfaces Line 320
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[UEFI Driver Wizard ]
