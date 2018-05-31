@@ -736,7 +736,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide71.JPG
 @title[Lab 1: New UEFI Driver Menu]
-<p align="right"><span class="gold" >Lab 1:</span></p>
+<p align="center"><span class="gold" >Lab 1:</span></p>
 <p align="left"><span class="gold" >New UEFI Driver Menu</span></p>
 <div class="left1">
 <ul style="list-style-type:disc">
@@ -846,7 +846,7 @@ Same as slide
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><b>Select</b></span>  </li>
-  <li><span style="font-size:0.7em" >&check;&nbsp;&nbsp;"Byte stream device (i.e.UART) &nbsp; <br>&nbsp;&nbsp;&nbsp; producing Serial I/O Protocol”  </span>  </li>
+  <li><span style="font-size:0.7em" >&check;&nbsp;&nbsp;"Byte stream device (i.e.UART) &nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; producing Serial I/O Protocol”  </span>  </li>
   <br>
   <br>
   <br>
