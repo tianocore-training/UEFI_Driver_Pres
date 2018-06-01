@@ -565,11 +565,13 @@ Note:
 - See the Start makes a call : Status = gBS->InstallMultipleProtocolInterfaces Line 320
 
 ---?image=assets/images/binary-strings-black2.jpg
-@title[UEFI Driver Wizard ]
+@title[UEFI Driver Wizard Section ]
 <br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Wizard</span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a Template UEFI Driver with the </span><br>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Wizard</span>
+
+
 
 ---?image=/assets/images/slides/Slide54.JPG
 @title[UEFI Driver Wizard  Overview]
@@ -686,6 +688,25 @@ Note:
 - Includes comments based on information from the Driver Writer’s Guide for UEFI 2.3.1
 - Functions may return error values until ported : (EFI_UNSUPPORTED, EFI_DEVICE_ERROR)
 
+
+---?image=/assets/images/slides/Slide_LabSec.JPG
+@title[Lab 1: Create a UEFI Driver section]
+<br>
+<br>
+<p align="Left"><span class="gold" >Lab 1: Create a UEFI Driver with the UEFI Driver Wizard </span></p>
+<br>
+<div class="left1">
+<ul>
+  <li><span style="font-size:0.8em" >In this lab, you’ll create a new UEFI driver using the UEFI driver wizard.</span></li>
+  <li><span style="font-size:0.8em" >This will create a set of "c" code files to be used as a template UEFI Driver used in the subsequent driver labs</span></li>
+
+</ul>
+</div>
+<div class="right1">
+<span style="font-size:0.8em" >&nbsp;  </span>
+</div>
+ 
+Note:
 ---
 @title[Lab 1: Install UEFI Driver Wizard, Python & wxPython ]
 <br>
