@@ -697,7 +697,7 @@ Note:
 <br>
 <div class="left1">
 <ul>
-  <li><span style="font-size:0.8em" >In this lab, you’ll create a new UEFI driver using the UEFI driver wizard.</span></li>
+  <li><span style="font-size:0.8em" >In this lab, you'll create a new UEFI driver using the UEFI Driver Wizard.</span></li>
   <li><span style="font-size:0.8em" >This will create a set of "c" code files to be used as a template UEFI Driver used in the subsequent driver labs</span></li>
 
 </ul>
