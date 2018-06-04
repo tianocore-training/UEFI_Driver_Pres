@@ -583,7 +583,7 @@ Note:
  <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;What is the UEFI Driver Model</span> </li><br>
  <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Details on Driver Binding Protocol</span></li><br>
  <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Example of UEFI Driver</span> </li>
-</ul>>
+</ul>
 
 
  
