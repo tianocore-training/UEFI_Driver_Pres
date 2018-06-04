@@ -30,6 +30,6 @@
 -->
 
 # UEFI_Driver_pres
-UEFI Driver Model - UEFI Driver Wizard
+How to write a UEFI Driver with the UEFI Driver Model
 
 To see the Slides goto https://gitpitch.com/Laurie0131/UEFI_Driver_pres/master#/
