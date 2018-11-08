@@ -32,4 +32,4 @@
 # UEFI_Driver_pres
 How to write a UEFI Driver with the UEFI Driver Model
 
-To see the Slides goto https://gitpitch.com/Laurie0131/UEFI_Driver_pres/master#/
+To see the Slides goto https://gitpitch.com/tianocore-training/UEFI_Driver_pres/master#/
