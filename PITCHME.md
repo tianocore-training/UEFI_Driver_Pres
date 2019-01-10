@@ -841,7 +841,7 @@ Note:
 @[89-113]( Entry point, notice only Install of Binding and Component Name Protocol)
 @[134-174]( The Supported Function, Only Checks and returns Supported or Unsupported)
 @[196-204](Start Function Entry)
-@[318-329](Start calls Install of Multiple Protocols)
+@[318-337](Start calls Install function to create handles for Multiple Protocols)
 @[394-402](Stop Function Entry)
 @[439-459](Stop Calls Un-install function matching the Start's Install)
 
