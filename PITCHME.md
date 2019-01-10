@@ -59,10 +59,78 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide4.JPG
-<!-- .slide: data-transition="none" -->
+---
 @title[Defining a UEFI Driver?]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
+<p align="right"><span class="gold" ><b>Defining a UEFI Driver?</b></span></p>
+
+@snap[north-west span-60 fragment]
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > UEFI Loadable Image <br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-east span-65 fragment]
+<br>
+<br>
+<p style="line-height:50%" ><br><br>&nbsp;</p>
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >May produce/consume protocols<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-70 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Supports complex bus hierarchies<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
+@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Driver Binding Protocol matches drivers to devices, adds version management<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br>&nbsp;</p>
+@box[bg-green2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Supports specific hardware, can be unloaded or override an existing driver<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+
+
+
 
 Note:
 
@@ -76,49 +144,9 @@ Note:
 
 
 
-+++?image=/assets/images/slides/Slide5.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 02]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide6.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 03]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide7.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 04]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide8.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Defining a UEFI Driver? 05]
-<p align="right"><span class="gold" >Defining a UEFI Driver?</span></p>
-
-Note:
-
-
-
 ---?image=/assets/images/slides/Slide10.JPG
 @title[UEFI Drivers - Location]
-<p align="right"><span class="gold" >UEFI Drivers - Location</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers - Location</b></span></p>
 
 Note:
 
@@ -132,7 +160,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide12_1.JPG
 @title[UEFI Drivers - Location II]
-<p align="right"><span class="gold" >UEFI Drivers - Location</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers - Location</b></span></p>
 
 Note:
 
@@ -143,7 +171,7 @@ Note:
 ---?image=/assets/images/slides/Slide14.JPG
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 Note:
 
@@ -153,7 +181,7 @@ Simlar to the Applications loading slide
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 02]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -163,7 +191,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 03]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -173,7 +201,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 04]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -183,7 +211,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 05]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -193,7 +221,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 06]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -203,7 +231,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 07]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -213,7 +241,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 08]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -223,7 +251,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[UEFI Drivers Vs. Applications 09]
-<p align="right"><span class="gold" >UEFI Drivers Vs. Applications</span></p>
+<p align="right"><span class="gold" ><b>UEFI Drivers Vs. Applications</b></span></p>
 
 
 Note:
@@ -232,7 +260,7 @@ Note:
 ---?image=/assets/images/slides/Slide25.JPG
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -260,7 +288,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 02]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -271,7 +299,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 03]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -282,7 +310,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 04]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -293,7 +321,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 05]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -304,7 +332,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 06]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -315,7 +343,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 07]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -326,7 +354,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 08]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
@@ -337,18 +365,88 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Drivers Produce Protocols 09]
-<p align="right"><span class="gold" >Drivers Produce Protocols</span></p>
+<p align="right"><span class="gold" ><b>Drivers Produce Protocols</b></span></p>
 
 
 Note:
 
 
 
----?image=/assets/images/slides/Slide35.JPG
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
 
+
+
+---
+@title[UEFI Driver Binding Protocol]
+<p align="center"><span class="gold" ><b>UEFI Driver Binding Protocol</b></span></p>
+
+
+
+@snap[north-west span-20 fragment]
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-cyan] </span></p>
+@snapend
+
+@snap[north-east span-85 fragment]
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:01.25em; font-family:Consolas;" >@color[yellow](Supported&lpar;&rpar;) </span> <span style="font-size:0.85em;" ><br> 
+Determines if a driver supports a controller </span></p>
+@snapend
+
+
+
+@snap[north-west span-20 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-ltgreen] </span></p>
+@snapend
+
+@snap[north-east span-85 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:01.25em; font-family:Consolas;" >@color[yellow](Start&lpar;&rpar;) </span> <span style="font-size:0.85em;" ><br> 
+Starts a driver on a controller &amp; Installs Protocols </span></p>
+@snapend
+
+
+
+@snap[north-west span-20 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.250em;" >@fa[star  gp-bullet-gold] </span></p>
+@snapend
+
+@snap[north-east span-85 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:01.25em; font-family:Consolas;" >@color[yellow](Stop&lpar;&rpar;) </span> <span style="font-size:0.85em;" ><br> 
+Stops a driver from managing a controller </span></p>
+@snapend
 
 Note:
 
@@ -356,49 +454,12 @@ Note:
 - Start()
 - Stop()
 
-
-+++?image=/assets/images/slides/Slide36.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol 02]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
-
-
-Note:
-
-Supported() - Checks if a driver supports a controller
-Check should not change hardware state of controller 
-Minimize execution time, move complex I/O to Start()
-May be called for controller that is already managed
-Child is optionally specified
-
-
-
-+++?image=/assets/images/slides/Slide37.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol 03]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
-
-
-
-Note:
+Supported() - Checks if a driver supports a controller Check should not change hardware state of controller 
+Minimize execution time, move complex I/O to Start() May be called for controller that is already managed Child is optionally specified
 
 Start() - Starts a driver on a controller
 Can create ALL child handles or ONE child handle
 A driver is not required to support starting ONE child handle.  It may always create ALL child handles.
-
-
-
-
-+++?image=/assets/images/slides/Slide38.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Driver Binding Protocol 04]
-<p align="center"><span class="gold" >UEFI Driver Binding Protocol</span></p>
-
-
-Note:
 
 Stop() - Stops a driver from managing a controller
 Destroys all specified child handles 
@@ -407,42 +468,249 @@ Stopping a bus controller requires two calls
 
 
 
-
----?image=/assets/images/slides/Slide40.JPG
+---
 @title[Supported - PCI Controller Device Handle]
-<p align="right"><span class="gold" >Supported - PCI Controller Device Handle</span></p>
+<p align="right"><span class="gold" ><b>Supported - PCI Controller Device Handle</b></span></p>
+@snap[north-west span-50]
+<br>
+<br>
+<table id="recTable-90">
+	<tr>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+	</tr>
+</table>
+
+@snapend
+
+@snap[west span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">Tasks:</font></span></p>
+<ul style="list-style-type:none; line-height:0.7;">
+	<li><span style="font-size:0.7em" >1. @color[yellow](Opens) PCI_IO Protocol</span></li>
+	<li><span style="font-size:0.7em" >2. Checks</span></li>
+	<li><span style="font-size:0.7em" >3. @color[yellow](Closes) PCI_IO Protocol</span></li>
+	<li><span style="font-size:0.7em" >4. Returns: Supported or Not<br>&nbsp;&nbsp;&nbsp;&nbsp;Supported</span></li>
+</ul>
+@snapend
+
+
+
+@snap[north-east span-50 fragment]
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ul>
+@snapend
+
+@snap[east span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Supported()`</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > Checks to see if a driver supports a controller </span></li>
+   <li><span style="font-size:0.7em" > Check should not change hardware state of controller  </span></li>
+   <li><span style="font-size:0.7em" > Minimize execution time, move complex I/O to Start() </span></li>
+   <li><span style="font-size:0.7em" > May be called for controller that is  already managed </span></li>
+   <li><span style="font-size:0.7em" > Child is optionally specified </span></li>
+</ul>
+
+@snapend
 
 Note:
 
-
----?image=/assets/images/slides/Slide42.JPG
-<!-- .slide: data-transition="none" -->
+---
 @title[Start - PCI Controller Device Handle]
-<p align="right"><span class="gold" >Start - PCI Controller Device Handle</span></p>
+<p align="right"><span class="gold" ><b>Start - PCI Controller Device Handle</b></span></p>
+
+
+
+
+
+
+@snap[north-east span-50 fragment]
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ul>
+@snapend
+
+@snap[east span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Start()`</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > @color[yellow](Opens) PCI I/O Protocol </span></li>
+   <li><span style="font-size:0.7em" > Starts a driver on a controller</span></li>
+   <li><span style="font-size:0.7em" > Can create ALL child handles or ONE child handle (i.e. Call Install Library)</span></li>
+</ul>
+
+@snapend
+
+@snap[north-west span-50]
+<br>
+<br>
+<table id="recTable-90">
+	<tr>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td  bgcolor="#7f7f7f" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_BLOCK_IO_PROTOCOL`</span></p></td>
+	</tr>
+</table>
+
+@snapend
+
 
 Note:
 
-+++?image=/assets/images/slides/Slide43.JPG
-<!-- .slide: data-background-transition="none" -->
+
+
+---
 <!-- .slide: data-transition="none" -->
-@title[Start - PCI Controller Device Handle 02]
-<p align="right"><span class="gold" >Start - PCI Controller Device Handle</span></p>
+@title[Stop - PCI Controller Device Handle]
+<p align="right"><span class="gold" ><b>Stop - PCI Controller Device Handle</b></span></p>
+
+@snap[north-west span-50]
+<br>
+<br>
+<table id="recTable-90">
+	<tr>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#7f7f7f" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_BLOCK_IO_PROTOCOL`</span></p></td>
+	</tr>
+</table>
+
+@snapend
+
+@snap[north-east span-50 fragment]
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ul>
+@snapend
 
 
 
+@snap[east span-50 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Stop()`</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > @color[yellow](Closes) PCI I/O Protocol </span></li>
+   <li><span style="font-size:0.7em" > Destroys all specified child handles (i.e. Call Uninstall)  </span></li>
+   <li><span style="font-size:0.7em" > If no children specified, controller is stopped </span></li>
+   <li><span style="font-size:0.7em" > Stopping a bus controller requires 2 calls </span></li>
+   <ul style="list-style-type:none; line-height:0.7;">
+		<li><span style="font-size:0.7em" > One call to stop the children.  A second call to stop the bus controller itself </span></li>
+   </ul>
+</ul>
 
----?image=/assets/images/slides/Slide45.JPG
-<!-- .slide: data-transition="none" -->
-@title[Start - PCI Controller Device Handle]
-<p align="right"><span class="gold" >Stop - PCI Controller Device Handle</span></p>
+@snapend
+
+
 
 Note:
 
-+++?image=/assets/images/slides/Slide46.JPG
+
++++
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Stop - PCI Controller Device Handle 02]
-<p align="right"><span class="gold" >Stop - PCI Controller Device Handle</span></p>
+<p align="right"><span class="gold" ><b>Stop - PCI Controller Device Handle</b></span></p>
+
+@snap[north-west span-50]
+<br>
+<br>
+<table id="recTable-90">
+	<tr>
+       <td bgcolor="#121212" height=".025" align="center"><p style="line-height:010%"><span style="font-size:0.65em" ><b>PCI Controller Device Handle</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_DEVICE_PATH_PROTOCOL`</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#404040" height=".02"><p style="line-height:010%"><span style="font-size:0.45em" >`EFI_PCI_IO_PROTOCOL`</span></p></td>
+	</tr>
+</table>
+
+@snapend
+
+
+@snap[north-east span-50 ]
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="cyan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inputs:</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" > “This”  </span></li>
+  <li><span style="font-size:0.7em" >  Controller to manage</span></li>
+  <li><span style="font-size:0.7em" >  Remaining Device Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ul>
+@snapend
+
+
+
+@snap[east span-50 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:85%" align="left"><span style="font-size:0.9em" ><font color="yellow">`Stop()`</font></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.7em" > @color[yellow](Closes) PCI I/O Protocol </span></li>
+   <li><span style="font-size:0.7em" > Destroys all specified child handles (i.e. Call Uninstall)  </span></li>
+   <li><span style="font-size:0.7em" > If no children specified, controller is stopped </span></li>
+   <li><span style="font-size:0.7em" > Stopping a bus controller requires 2 calls </span></li>
+   <ul style="list-style-type:none; line-height:0.7;">
+		<li><span style="font-size:0.7em" > One call to stop the children.  A second call to stop the bus controller itself </span></li>
+   </ul>
+</ul>
+ 
+@snapend
+
+
+
+Note:
 
 
 ---?image=assets/images/binary-strings-black2.jpg
@@ -456,7 +724,7 @@ Note:
 ---?image=/assets/images/slides/Slide48.JPG
 <!-- .slide: data-transition="none" -->
 @title[Example:  UEFI Driver - ScsiDiskDxe]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Bus/Scsi/ScsiDiskDxe">edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe</a></span><br>
 
@@ -476,7 +744,7 @@ Note:
 
 +++
 @title[Example:  UEFI Driver - ScsiDiskDxe 02 -2]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 ```php
 [Defines]
@@ -532,12 +800,14 @@ Note:
 
 ```
 
+@[8-9](Entry point function)
+
 Note:
 
 
 ---?image=/assets/images/slides/Slide50.JPG
 @title[Example:  UEFI Driver - ScsiDiskDxe 03 -1]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Bus/Scsi/ScsiDiskDxe">edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe</a></span><br>
 
@@ -548,7 +818,7 @@ Note:
 
 +++?code=sample/ScsiDiskDxe/ScsiDisk.h&lang=c++&title=Example:  ScsiDisk.h
 
-
+@[55-99]( UEFI Driver's Private Data Structure declaration)
 
 Note:
 
@@ -556,7 +826,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide51.JPG
 @title[Example:  UEFI Driver - ScsiDiskDxe 04 -1]
-<p align="right"><span class="gold" >Example:  UEFI Driver - ScsiDiskDxe</span></p>
+<p align="right"><span class="gold" ><b>Example:  UEFI Driver - ScsiDiskDxe</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Bus/Scsi/ScsiDiskDxe">edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe</a></span><br>
 
@@ -566,6 +836,14 @@ Note:
 
 
 +++?code=sample/ScsiDiskDxe/ScsiDisk.c&lang=c++&title=Example:  ScsiDisk.c
+
+@[16-33](Module Data Structures for Binding Protocol and SCSI Dick Info Protocol - Produced)
+@[89-113]( Entry point, notice only Install of Binding and Component Name Protocol)
+@[134-174]( The Supported Function, Only Checks and returns Supported or Unsupported)
+@[196-204](Start Function Entry)
+@[318-329](Start calls Install of Multiple Protocols)
+@[394-402](Stop Function Entry)
+@[439-459](Stop Calls Un-install function matching the Start's Install)
 
 
 Note:
