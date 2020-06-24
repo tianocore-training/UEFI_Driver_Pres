@@ -10,7 +10,7 @@
 Note:
   PITCHME.md for UEFI / EDK II Training  UEFI Driver Model and Driver Wizard Pres
 
-  Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2020, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without
@@ -56,6 +56,76 @@ Note:
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Driver Model </span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+
+---?image=/assets/images/slides/Slide10.JPG
+@title[UEFI Drivers - Location]
+<p align="right"><span class="gold" ><b>UEFI Drivers - Location</b></span></p>
+
+Note:
+
+#### Boot flow diagram 
+- UEFI Drivers depend on:
+  -  the EFI system table
+  -  Boot services
+  -  runtime services 
+  
+
+---?image=/assets/images/slides/Slide5_1.JPG
+@title[What are UEFI Drivers ?]
+<p align="left"><span class="gold" ><br>@size[1.1em](<b>What are UEFI Drivers ? </b>)</span><br>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[south-east span-15 fragment ]
+<p style="line-height:40%" align="left" ><span style="font-size:0.57em;" >New UEFI Driver</span></p>
+![Newblock](/assets/images/newBlock.png) 
+<br>
+<br>
+<br>
+<br>
+@snapend
+
+
+
+
+@snap[north-west span-60 fragment ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<ul style="list-style-type:disc; line-height:0.9;">
+  <li><span style="font-size:0.87em;" >UEFI Drivers extend firmware  </span>   </li>
+  <li><span style="font-size:0.87em;" >Portable across platforms   </span>   </li>
+  <li><span style="font-size:0.87em;" >Enables rapid development  </span>   </li>
+  <li><span style="font-size:0.87em;" >Produce Protocols  </span>   </li>
+</ul>
+@snapend
+
+
+@snap[south-west span-70 fragment]
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center" ><span style="font-size:0.85em; font-weight: bold;" > UEFI driver is chained into a link lst of<br>@color[yellow](Drivers Managing Devices) <br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+Note:
+So what do UEFI Drivers do?
+  More than anything UEFI drivers extend the firmware. 
+  They add support for new hardware without any Hardware or OS dependence. – 
+  What that means is --   The UEFI driver does not need a specific piece of hardware, a UEFI Driver will allow new hardware to exist and will manage this new hardware but does not depend on any other hardware or OS manager. In other words, a UEFI driver is chained into a link list of drivers and devices
+Drivers can be Portable across platform architectures
+IA32, X64 
+Enables rapid development – Enable reuse and through the driver protocols enable rapid development
+
+UEFI and PI Drivers produce protocols. – that can be used by anything else in the UEFI System
+
+
+  
+
+
 
 
 
@@ -143,19 +213,6 @@ Note:
 
 
 
-
----?image=/assets/images/slides/Slide10.JPG
-@title[UEFI Drivers - Location]
-<p align="right"><span class="gold" ><b>UEFI Drivers - Location</b></span></p>
-
-Note:
-
-#### Boot flow diagram 
-- UEFI Drivers depend on:
-  -  the EFI system table
-  -  Boot services
-  -  runtime services 
-  
 
 
 ---?image=/assets/images/slides/Slide12_1.JPG
@@ -907,7 +964,7 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWIS
 ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY 
 OF SUCH DAMAGE.
 
-Copyright (c) 2018, Intel Corporation. All rights reserved.
+Copyright (c) 2020, Intel Corporation. All rights reserved.
 **/
 
 ```
